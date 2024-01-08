@@ -12,33 +12,24 @@ input/output unit
 bottum:控制左右移動,射擊,reset
 
 起始畫面 image
-
-
-![Image](https://github.com/users/FrankChen0930/projects/1/assets/113695822/9c359f7d-5ebe-4eac-96b7-8e947e469904)
+![DSC_0283](https://github.com/FrankChen0930/FrankChen/assets/113695822/932db72c-b68c-469e-863c-822f973acac6)
 
 
 掉落物掉落 隨機掉落 可以多排同時掉落 image
-
-
-![Image](https://github.com/users/FrankChen0930/projects/1/assets/113695822/36db1863-7944-4459-9e44-fa6a292f9db2)
+![DSC_0284](https://github.com/FrankChen0930/FrankChen/assets/113695822/6406badb-5ccd-4483-928a-22c5a0f687a5)
 
 
 射擊畫面 可以無限發射 image
-
-
-![Image](https://github.com/users/FrankChen0930/projects/1/assets/113695822/61261004-eda2-42fd-84ee-670381c1b605)
+![DSC_0285](https://github.com/FrankChen0930/FrankChen/assets/113695822/df939e72-b84f-4fc5-9ec2-95a7bfd90914)
 
 
 失敗畫面 血條有5個 image
-
-
-![Image](https://github.com/users/FrankChen0930/projects/1/assets/113695822/adde2423-6e37-4133-a17d-fba2ca797a1b)
+![DSC_0282](https://github.com/FrankChen0930/FrankChen/assets/113695822/c8ee3b6e-06e2-47be-be16-e1bf159bcdcf)
 
 
 通關畫面 時間到60秒 通關 image
+![DSC_0286](https://github.com/FrankChen0930/FrankChen/assets/113695822/31a333ae-633b-4502-af62-fcaa07113d8c)
 
-
-![Image](https://github.com/users/FrankChen0930/projects/1/assets/113695822/02d18543-c0f5-4494-83bb-ee925545df51)
 
 
 功能說明:
