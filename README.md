@@ -11,7 +11,7 @@
 input/output unit
 七段顯示器：時間計時、
 8*8LED顯示器：遊戲畫面、
-bottum：控制左右移動,射擊
+bottum：控制左右移動,射擊、
 指撥開關：reset
 
 起始畫面 image
