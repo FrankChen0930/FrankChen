@@ -115,3 +115,6 @@ reg [3:0] C4_count; //時間計時 個位數
 reg [2:0] seg_count;
 
 實作影片上傳在上面的檔案中喔
+
+或是參考下面的連結
+https://drive.google.com/drive/folders/1g8JTZDdyW9PUaCGHYFX59dpitA-sUuD_?usp=sharing
