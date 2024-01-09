@@ -2,14 +2,16 @@
 
 作者:111321025 , 111321027 , 111321031
 
-藍色代表 操作角色
-紅色代表 掉落物
-綠色代表 射擊子彈
+藍色燈代表：角色
+
+紅色燈代表：掉落物
+
+綠色燈代表：射擊子彈
 
 input/output unit
-七段顯示器:時間計時
-8*8LED顯示器:遊戲畫面
-bottum:控制左右移動,射擊,reset
+七段顯示器：時間計時、
+8*8LED顯示器：遊戲畫面、
+bottum：控制左右移動,射擊,reset
 
 起始畫面 image
 ![DSC_0283](https://github.com/FrankChen0930/FrankChen/assets/113695822/932db72c-b68c-469e-863c-822f973acac6)
@@ -34,11 +36,11 @@ bottum:控制左右移動,射擊,reset
 
 功能說明:
 
-持續躲避和射擊掉落物直到時間到為止~
+持續躲避和射擊掉落物直到時間到為止（掉落物可能是一格或是橫排2*直排1）
 
-module test(output reg [7:0] DATA_R, DATA_G, DATA_B, //88LED輸出(RED,GREEN,BLUE)
+module test(output reg [7:0] DATA_R, DATA_G, DATA_B, //8*8LED輸出(RED,GREEN,BLUE)
 
-output reg [3:0] COMM, //88LED輸出控制
+output reg [3:0] COMM, //8*8LED輸出控制
 
 output reg [6:0] seg, //七段顯示器輸出(a,b,c,d,e,f,g)
 
@@ -113,6 +115,14 @@ reg [3:0] C3_count; //時間計時 十位數
 reg [3:0] C4_count; //時間計時 個位數
 
 reg [2:0] seg_count;
+
+reg [1:0] count_ab; //ab排同時掉落
+
+reg [1:0] count_cd;//cd排同時掉落
+
+reg [1:0] count_ef;//ef排同時掉落
+
+reg [1:0] count_gh;//gh排同時掉落
 
 實作影片上傳在上面的檔案中喔
 
