@@ -6,12 +6,13 @@
 
 紅色燈代表：掉落物
 
-綠色燈代表：射擊子彈
+綠色燈代表：子彈
 
 input/output unit
 七段顯示器：時間計時、
 8*8LED顯示器：遊戲畫面、
-bottum：控制左右移動,射擊,reset
+bottum：控制左右移動,射擊
+指撥開關：reset
 
 起始畫面 image
 ![DSC_0283](https://github.com/FrankChen0930/FrankChen/assets/113695822/932db72c-b68c-469e-863c-822f973acac6)
